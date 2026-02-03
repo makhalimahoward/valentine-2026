@@ -23,10 +23,11 @@ yesBtn.addEventListener('click', () => {
     successSection.classList.remove('hidden');
 
     setTimeout(() => {
-        const phoneNumber = "0784589841"; // <-- CHANGE THIS to your number (e.g., 15551234567)
+        const phoneNumber = "263784589841"; // <-- CHANGE THIS to your number (e.g., 15551234567)
         const message = "I checked your website... and I said YES! ❤️";
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         
         window.open(whatsappUrl, '_blank');
     }, 4000);
 });
+
