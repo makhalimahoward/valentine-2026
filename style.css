@@ -1,0 +1,92 @@
+/* CSS - The Look Mictoss */
+body {
+    background-color: #ffe4e1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+#valentine-gif {
+    width: 200px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #d63384;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    height: 100px; 
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: bold;
+}
+
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#noBtn {
+    background-color: #888;
+    color: white;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        box-shadow: none; 
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #valentine-gif {
+        width: 150px;
+    }
+
+    .btn-group {
+        flex-direction: column; 
+        gap: 15px;
+    }
+}
