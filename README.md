@@ -6,7 +6,7 @@ Features
 - Interactive Logic: The No button playfully evades the user when they try to click it.
 - Mobile Responsive: Optimized for both desktop and mobile screens.
 - Direct Notification: Automatically redirects to a pre-filled WhatsApp message upon a Yes click.
-- You can view the site live at https://makhalimahoward.github.io/Valentine-2026/
+- You can view the site live at https://valentine-2026-deb.pages.dev/
 
 Deployment
 This project is designed to be hosted for free via GitHub Pages.
